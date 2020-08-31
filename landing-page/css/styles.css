@@ -326,6 +326,10 @@ button:focus{
     .banner-three{
         height: 625px;
     }
+    .container-sub-three{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 @media only screen and (min-width: 576px){
     .banner-three{
