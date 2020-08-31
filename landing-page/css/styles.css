@@ -153,6 +153,9 @@ button:focus{
 .desc-color-three{
     color: #2980b9;
 }
+.icon-box{
+    display: block;
+}
 .banner-three{
     width: 100%;
     height: 500px;
@@ -190,6 +193,23 @@ button:focus{
 }
 
 /*CSS Mobile*/
+@media only screen and (min-width: 1150px){
+    .icon-container-first-mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1150px){
+
+    .icon-container-first{
+        margin-left: 130px;
+        }
+    .container-first-welcome{
+        font-size: 49px;
+        }
+    .container-first-ayokebun{
+        font-size: 49px;
+        }
+}
 @media only screen and (max-width: 1024px){
 .site-mobile {
     display: block;
@@ -210,4 +230,105 @@ button:focus{
     text-decoration: none;
     font-size: 17px;
     display: block;
+    }
+.container-three {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+.icon-container-first-mobile{
+    display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .icon-container-first-mobile{
+        display: none;
+        }
+}
+@media only screen and (max-width: 991px){
+.icon-container-first-mobile{
+    width: 100%;
+    height: 250px;
+    margin-top: 65px;
+    }
+.container-sub-first{
+    margin-top: 50px;
+    }
+.icon-container-first{
+    display: none;
+    }
+.icon-container-first-mobile{
+    display: block;
+    }
+.wrap-container-first {
+    margin-top: 10px;
+    }
+.icon-center-mobile{
+    margin-right: 100px;
+    margin-left: 100px;
+    }
+.wrap-container-first{
+    text-align: center;
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner-second{
+    height: 700px;
+    }
+    .icon-container-first-mobile{
+        width: 100%;
+        height: 250px;
+        margin-top: 65px;
+        }
+    .container-sub-first{
+        margin-top: 50px;
+        }
+    .icon-container-first{
+        display: none;
+        }
+    .icon-container-first-mobile{
+        display: block;
+        }
+    .wrap-container-first {
+        margin-top: 10px;
+        }
+    .container-title-three{
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .icon-nature-recovery{
+        width: 100%;
+        height: 300px;
+    }
+    .icon-box{
+        padding: 35px;
+    }
+    .container-second-icon{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner-second{
+        height: 900px;
+    }
+    .banner-first{
+        height: 777px;
+    }
+    .wrap-banner-three-mobile{
+        display: block;
+    }
+    .icon-nature-recovery{
+        width: 250px;
+        height: 210px;
+    }
+    .container-title-three{
+        font-size: 20px;
+    }
+    .banner-three{
+        height: 625px;
+    }
+}
+@media only screen and (min-width: 576px){
+    .banner-three{
+        height: 540px;
+    }
 }
