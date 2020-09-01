@@ -1,3 +1,4 @@
+/*Khusus Landing Page */
 section{
     position: relative;
 }
@@ -190,6 +191,27 @@ button:focus{
     margin-top: 22px;
     color: white;
     font-weight: 200;
+}
+
+/*Sub Halaman*/
+.banner-sub-page{
+    background-color: #27ae60;
+    height: 400px;
+}
+.page-title-wrapper{
+    margin-top: 180px;
+}
+.title-galeri{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+.wrapper-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 /*CSS Mobile*/
