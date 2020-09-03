@@ -195,11 +195,11 @@ button:focus{
 
 /*Sub Halaman*/
 .banner-sub-page{
-    background-color: #27ae60;
+    background-color: #00B894;;
     height: 400px;
 }
 .page-title-wrapper{
-    margin-top: 180px;
+    padding-top: 150px;
 }
 .title-galeri{
     font-family: 'Poppins', sans-serif;
@@ -272,9 +272,6 @@ button:focus{
     height: 250px;
     margin-top: 65px;
     }
-.container-sub-first{
-    margin-top: 50px;
-    }
 .icon-container-first{
     display: none;
     }
@@ -300,9 +297,6 @@ button:focus{
         width: 100%;
         height: 250px;
         margin-top: 65px;
-        }
-    .container-sub-first{
-        margin-top: 50px;
         }
     .icon-container-first{
         display: none;
@@ -346,7 +340,7 @@ button:focus{
         font-size: 20px;
     }
     .banner-three{
-        height: 625px;
+        height: 700px;
     }
     .container-sub-three{
         padding-top: 50px;
