@@ -17,16 +17,9 @@ function drawChart() {
     title: 'Grafik Hasil Panen (Hari)',
     curveType: 'function',
     legend: { position: 'bottom' },
-    width: 320,
-    height: 200,
   };
 
   var chart = new google.visualization.LineChart(document.getElementById('curve_chart_harian'));
 
   chart.draw(data, options);
 }
-
-
-$(window).resize(function(){
-  drawChart();
-});
