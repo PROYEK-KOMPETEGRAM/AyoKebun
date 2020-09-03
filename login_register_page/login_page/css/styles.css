@@ -12,7 +12,6 @@ body {
 .card-signin {
   border: 0;
   border-radius: 1rem;
-  box-shadow: 1px 2px 12px #3a3939
 }
 
 .card-signin .card-title {
@@ -105,6 +104,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.logo-size{
+  width: 150px;
+  height: 150px;
 }
 
 
