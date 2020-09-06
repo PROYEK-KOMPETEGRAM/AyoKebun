@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajukan Bantuan</title>
+    <title>Unggah Galeri</title>
      <!-- Link -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -53,26 +53,26 @@
     <main class="mdl-layout__content">
         <div class="container">
             <div class="wrap-form shadow">
-                <h2 class="bg-title-form title-form">Formulir Ajukan Bantuan</h2>
+                <h2 class="bg-title-form title-form">Formulir Unggah Galeri</h2>
                 <div class="container content-form">
                     <form>
                     <div class="form-group">
-                        <label for="jenisBibit">Jenis bibit komoditi</label>
-                        <select class="form-control content-form" id="jenisBibit">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+                        <label for="inputLokasi">Lokasi</label>
+                        <input type="text" class="form-control" id="inputLokasi" placeholder="Lokasi" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="deskripsiUnggahFoto">Deskripsi</label>
+                            <textarea class="form-control" id="deskripsiUnggahFoto" rows="3" required></textarea>
+                          </div>
                     </div>
                         <div class="form-group">
-                            <label for="sertifikatPrakerja">Unggah Sertifikat Prakerja</label>
-                            <input type="file" class="form-control-file" id="sertifikatPrakerja" accept="application/pdf" required>
+                            <label for="unggahFoto">Unggah Foto</label>
+                            <input type="file" class="form-control-file" id="unggahFoto" accept="image/jpeg,image/png" required>
                         </div>
                         <div class="form-group button-form">
                             <!-- Accent-colored raised button with ripple -->
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" onclick="#">Kirim</button>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">Kirim</button>
                         </div>
                     </form>
                 </div>

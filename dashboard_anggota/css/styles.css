@@ -1,3 +1,9 @@
+button:focus {
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
 .mdl-layout__content{
     background-color: #F0F2F5;
 }
@@ -127,7 +133,7 @@ span.title-peringkat{
     border-top-right-radius: 10px;
 }
 .title-form{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     padding: 15px;
 }
@@ -139,8 +145,11 @@ span.title-peringkat{
 }
 .content-form{
     font-size: 17px;
+    font-family: 'Roboto', sans-serif;
 }
-
+.button-form{
+    text-align: right;
+}
 
 
 /*Mobile only*/
