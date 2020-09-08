@@ -150,6 +150,13 @@ span.title-peringkat{
 .button-form{
     text-align: right;
 }
+.radio-btn-layout{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.layout-date-time{
+    width: auto;
+}
 
 
 /*Mobile only*/
