@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelatihan</title>
+     <!-- Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/material.teal-green.min.css" />
+    <link rel="stylesheet" href="css/styles.css">       
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" >
+
+        <!-- Header -->
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Dashboard</span>
+                <div class="mdl-layout-spacer"></div>
+                <!--Tombol Profil-->
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" data-toggle="tooltip"
+                title="Pemerintah Kota Bandung">
+                <i class="material-icons">account_circle</i>
+            </button>
+            <!--Tombol More-->
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+                <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+                <li class="mdl-menu__item">Log Out</li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Sidebar -->
+    
+    <div class="mdl-layout__drawer">
+        <img id="logo" src="assets/Daun (gemastik).svg" title="logo" width="100" height="100" style="vertical-align: middle;">
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="#">Dashboard</a>
+            <a class="mdl-navigation__link" href="#">Pelatihan</a>
+            <a class="mdl-navigation__link" href="#">Ajukan Bantuan</a>
+            <a class="mdl-navigation__link" href="#">Unggah Hasil Panen</a>
+            <a class="mdl-navigation__link" href="#">Unggah Galeri</a>
+            <a class="mdl-navigation__link" href="#">Kirim Laporan</a>
+            <a class="mdl-navigation__link" href="#">Prediksi Hama</a>
+            <a class="mdl-navigation__link" href="#">Pengaturan</a>
+        </nav>
+    </div>
+    
+    <main class="mdl-layout__content">
+            <div class="container">
+                <div class="row shadow wrapper-pelatihan">
+                    <div class="col-sm">
+                        <img class="img-prakerja" src="assets/logo-prakerja.png" alt="logo-prakerja">
+                    </div>
+                    <div class="col-sm">
+                        <p class="content-pelatihan">Kartu Prakerja adalah sebuah kartu yang digalangkan dalam rangka program pelatihan dan pembinaan warga negara Indonesia yang belum memiliki keterampilan. Kartu tersebut dipromosikan oleh Joko Widodo pada masa kampanye Pemilihan umum Presiden Indonesia 2019, bersama dengan KIP Kuliah dan Kartu sembako murah. Sebagai contoh, dalam sebuah kampanye Pemilu 2019 lalu di Senayan, 10 Maret 2019, ia akan menjalankan program ini jika ia terpilih sebagai presiden sebagai jalan bagi para pendaftarnya untuk memasuki dunia kerja. Selain memberdayakan, kartu tersebut juga dinyatakan dapat menanggulangi kemiskinan. Kartu tersebut juga dinilai efektif untuk Industri 4.0. (sumber: wikipedia)</p>
+                        <div class="form-group button-form">
+                            <!-- Accent-colored raised button with ripple -->
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" onclick="#">Informasi lanjut</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </main>
+
+
+</div>
+
+    
+</body>
+</html>
